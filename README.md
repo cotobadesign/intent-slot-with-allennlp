@@ -10,6 +10,10 @@ https://cotobaagent-developers-community.connpass.com/event/188047/
 
 % python scripts/corpus.py
 
+- 上記 scripts/corpus.py の形態素解析を jumannpp から janome に変更した版
+
+% python scripts/corpus_janome.py
+
 ## 2. インテント認識モデルの推定とテスト
 
 % python scripts/train_intent_estimator.py
